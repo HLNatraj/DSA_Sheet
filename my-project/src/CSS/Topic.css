@@ -1,0 +1,60 @@
+.topic-container {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+a {
+    color: #6366f1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input[type="checkbox"] {
+    margin-top: 5px;
+}
+
+/* Pagination styles */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 8px;
+}
+
+.pagination button {
+    background-color: #e0e7ff; /* Light Indigo */
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.pagination button:hover {
+    background-color: #6366f1; /* Indigo */
+    color: white;
+}
+
+.pagination button.active {
+    background-color: #6366f1;
+    color: white;
+}
